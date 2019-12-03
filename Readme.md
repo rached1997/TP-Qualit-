@@ -1,9 +1,13 @@
 NB : 
-Lors d'éffectuation d'un achat pour la 1ère fois, il est demandé à l'utilisateur de renseigner des informations relatives à son adersse, une fois ces informations on été enregistré, l'utilisateur n'est pas demandé à remplir les champs concernant l'adresse lors d'un deuxième achat, dans ce cas, il suffit de commenter la partie de renseignement d'adresse dans le code du TP2 puisque cette étape n'est plus efféctuée.
-// Filling the adress inputs
+Lors d'Ã©ffectuation d'un achat pour la 1Ã¨re fois, il est demandÃ© Ã  l'utilisateur de renseigner des informations relatives Ã  son adersse, une fois ces informations on Ã©tÃ© enregistrÃ©, l'utilisateur n'est plus demandÃ© Ã  remplir ces champs lors d'un deuxiÃ¨me achat, dans ce cas, il suffit de commenter la partie de renseignement d'adresse dans le code du TP2 puisque cette Ã©tape n'est plus effÃ©ctuÃ©e.
+
+
+		
+		// Filling the adress inputs
+		
 		WebElement cin = driver.findElement(By.id("input_cin"));
 		cin.sendKeys("12345678");
-
+		
 		WebElement adress = driver.findElement(By.id("address1"));
 		adress.sendKeys("Adress rue Adress 123");
 
